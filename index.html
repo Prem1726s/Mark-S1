@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>A Little Surprise ❤️</title>
+  <style>
+    body{
+      margin: 0;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background: linear-gradient(135deg, #ff758c, #ff7eb3);
+      font-family: Arial, sans-serif;
+      color: white;
+      text-align: center;
+    }
+    .box{
+      background: rgba(255,255,255,0.15);
+      padding: 40px;
+      border-radius: 25px;
+      width: 80%;
+      max-width: 500px;
+      backdrop-filter: blur(10px);
+    }
+    button{
+      padding: 15px 25px;
+      margin: 10px;
+      border: none;
+      border-radius: 30px;
+      font-size: 17px;
+    }
+    .correct{
+      background: white;
+      color: #ff4f81;
+      cursor: pointer;
+    }
+    .wrong{
+      backgroung: #777;
+      color: white;
+    }
+  </style>
+</head>
+<body>
+<div class="box">
+  <h1>Hey Mrs Bharwani ❤️</h1>
+  <p>I made something special for you...</p>
+  <h2>Are you ready?</h2>
+  <button class="wrong" disabled>
+    No🙄
+  </button>
+  <button class="correct" 
+    onclick="location.href='page2.html'">
+    Yes❤️
+  </button>
+  <button class="wrong" disabled>
+    Maybe Later🫣
+  </button>
+</div>
+</body>
+</html>
